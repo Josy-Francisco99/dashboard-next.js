@@ -1,8 +1,9 @@
+import { Table } from "@/components/table";
 
 export  default function Pedidos() {
   return (
-    <div  className="ml-20  mt-4" >
-        <h1>Pedidos</h1>
+    <div  className="ml-20  mt-8" >
+        <Table/>
     </div>
   )
 }
